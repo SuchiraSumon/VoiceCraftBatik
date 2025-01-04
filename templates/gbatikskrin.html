@@ -80,13 +80,13 @@
         <!-- Navbar End -->
 
         <!-- Hero Start -->
-        <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container-fluid bg-light py-6 my-6 mt-0" style="margin-bottom: 2rem;">
             <div class="container text-center animated bounceInDown">
                 <h1 class="display-1 mb-4">Get Your Batik Skrin Pattern Here</h1>
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
                     <!-- <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Blog</small>-->
                     <h1 class="display-5 mb-5">Please Upload an Audio File</h1>
-                    <div style="max-width: 28em;">
+                    <div class="record-container" style="width: 80%; margin-left: 25%;">
                         <select id="encodingTypeSelect" hidden>
                           <option value="wav" selected>Waveform Audio (.wav)</option>
                         </select>
@@ -110,7 +110,7 @@
         </div>
         <!-- Hero End -->
 
-        <div class="container-fluid event py-6">
+        <div class="container-fluid event py-6" style="padding-top: 2rem;">
             <div class="container text-center align-items-center">
                 {% if audio_features %}
                 <h2>Audio Features</h2>

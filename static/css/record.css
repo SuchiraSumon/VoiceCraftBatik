@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    min-height: 100vh; /* Ensures full vertical centering */
+    min-height: 10vh; /* Ensures full vertical centering */
     max-width: 50%;
     text-align: center;
   }
