@@ -1,3 +1,54 @@
+.audio-features-section {
+    margin-bottom: 2rem;
+}
+
+.audio-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.feature-item {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.feature-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.feature-value {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.batik-images-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.batik-image-item {
+    text-align: center;
+}
+
+.batik-image-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
 
 /*** Spinner Start ***/
 #spinner {
